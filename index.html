@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div id="form-container">
+
+        <h2>Login </h2>
+
+        <form onsubmit="return formValidate()">
+            <!-- input box to get username  -->
+            <input type="text" id="username" placeholder="Enter Username...."> <br>
+            <p id="userError" class="error">  </p>
+
+            <!-- input box to get password -->
+            <input type="password" id="password" placeholder="Enter Password..."> <br>
+            <p id="passError" class="error"></p>
+
+            <!-- submit button -->
+            <input type="submit" id="submit">  
+              
+        </form>
+
+    </div>
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
